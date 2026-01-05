@@ -33,7 +33,7 @@ export class MaintenancePlan {
     notes: string;
 
     @Prop()
-    evidenceUrl: string;
+    evidenceUrl?: string;
 }
 
 export const MaintenancePlanSchema = SchemaFactory.createForClass(MaintenancePlan);
